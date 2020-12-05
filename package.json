@@ -1,6 +1,6 @@
 {
   "name": "snowpack-cycle",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Snowpack create-snowpack-app template for Cycle.js",
   "main": "index.js",
   "scripts": {
