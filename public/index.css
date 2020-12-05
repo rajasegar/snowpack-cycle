@@ -1,0 +1,18 @@
+body {
+  background-color: #24242d;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+#app {
+  text-align: center;
+}
+
+button {
+  color: #c6fc93;
+  border: 2px solid #c6fc93;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  background: none;
+  cursor: pointer;
+}
