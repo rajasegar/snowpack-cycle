@@ -2,7 +2,7 @@
 
 > ? Bootstrapped with Create Snowpack App (CSA).
 
-This is a [Snowpack](https://snowpack.dev) application template for [cycle.js](https://cyclejs.org).
+This is a [Snowpack](https://snowpack.dev) application template for [Cycle.js](https://cycle.js.org).
 
 ## Usage
 This is how you can use this template with Snowpack to create Cycle.js apps:
