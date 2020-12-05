@@ -1,0 +1,36 @@
+{
+  "name": "snowpack-cycle",
+  "version": "0.0.0",
+  "description": "Snowpack create-snowpack-app template for Cycle.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\"",
+    "deploy": "git push && git push --tags && npm publish"
+  },
+  "keywords": [
+    "csa-template",
+    "cycle",
+    "cycle.js",
+    "snowpack"
+  ],
+  "author": "Rajasegar Chandran <rajasegar.c@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/rajasegar/snowpack-cycle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajasegar/snowpack-cycle"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "snowpack": "^2.18.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^22.8.0",
+    "@cycle/run": "^5.5.0",
+    "xstream": "^11.14.0"
+  }
+}
